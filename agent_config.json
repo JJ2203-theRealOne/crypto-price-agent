@@ -1,0 +1,25 @@
+{
+  "coins": {
+    "bitcoin": "BTC",
+    "ethereum": "ETH",
+    "solana": "SOL",
+    "cardano": "ADA",
+    "polkadot": "DOT",
+    "chainlink": "LINK",
+    "avalanche-2": "AVAX"
+  },
+  "thresholds": {
+    "drop_alert": -5.0,
+    "surge_alert": 10.0,
+    "volatility_window": 24
+  },
+  "check_interval": 300,
+  "enable_surge_alerts": true,
+  "enable_volatility_tracking": true,
+  "max_history_length": 288,
+  "advanced_features": {
+    "enable_pattern_detection": false,
+    "enable_volume_tracking": false,
+    "enable_market_correlation": false
+  }
+}
